@@ -24,7 +24,7 @@ public class Equation {
         return this;
     }
 
-    public String compute(Integer left, Integer right, OperationType type) {
+    public String compute(Double left, Double right, OperationType type) {
         switch (type) {
             case PLUS -> {
                 return "" + (left + right);

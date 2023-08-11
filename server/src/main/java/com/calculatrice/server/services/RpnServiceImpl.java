@@ -61,8 +61,8 @@ public class RpnServiceImpl implements RpnService {
 
                         List<String> subEquationToKeep = subEquation.subList(0, subEquation.size() - 2);
 
-                        Integer rightPar = Integer.parseInt(subEquation.get(subEquation.size() - 1));
-                        Integer leftPar = Integer.parseInt(subEquation.get(subEquation.size() - 2));
+                        Double rightPar = Double.parseDouble(subEquation.get(subEquation.size() - 1));
+                        Double leftPar = Double.parseDouble(subEquation.get(subEquation.size() - 2));
                         OperationType type = null;
 
                         switch (key) {
